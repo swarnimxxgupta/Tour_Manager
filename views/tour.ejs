@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ('./partials/_maphead',{title}) %>
+  <body>
+    <%- include ('./partials/_header') %>
+
+    <%- include ('./partials/_tourTemplate',{tour:tour}) %>
+   
+    <%- include ('./partials/_footer') %>
+
+    <script src="/js/mapbox.js"></script>
+  </body>
+  <%- include('./partials/_jsElements') %>
+</html>
